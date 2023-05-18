@@ -1,0 +1,7 @@
+source leaprc.protein.ff14SB
+set default PBRadii mbondi3
+tri=sequence {SEQ}
+savepdb tri SSEEQ.pdb
+#saveamberparm tri SSEEQ.parm7 SSEEQ.crd
+#quit
+

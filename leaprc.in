@@ -1,0 +1,7 @@
+source leaprc.protein.ff14SB
+set default PBRadii mbondi3
+tri=sequence {ILE ILE TYR TRP MET}
+savepdb tri ILE-ILE-TYR-TRP-MET.pdb
+#saveamberparm tri ILE-ILE-TYR-TRP-MET.parm7 ILE-ILE-TYR-TRP-MET.crd
+#quit
+
